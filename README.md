@@ -1,4 +1,4 @@
-# To reproduce
+# To reproduce [the issue](https://github.com/prisma/prisma-engines/issues/2110)
 
 Make sure you've local psql running which `.env` is pointing at, then   
 ```sh
