@@ -1,0 +1,26 @@
+{
+  "name": "enoent-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pkg": "^5.3.1",
+    "prisma": "^2.27.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.27.0",
+    "dotenv": "^10.0.0"
+  },
+  "pkg": {
+    "targets": [
+      "node16-linux-x64",
+    ]
+  }
+}
